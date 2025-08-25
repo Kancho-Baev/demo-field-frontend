@@ -22,9 +22,21 @@ A minimal React boilerplate with TypeScript, Tailwind CSS, and Apollo GraphQL.
    npm install
    ```
 
-2. Start the development server:
+## Environment Setup
+
+Create a `.env` file in the root directory with the following variables:
+
+```env
+VITE_API_URL=http://localhost:3332/graphql
+```
+
+**Note**: The `VITE_API_URL` should point to your Field Builder API Gateway endpoint. Make sure the API is running before starting the frontend development server.
+
+## Running the Application
+
+1. Start the development server:
    ```bash
    npm run dev
    ```
 
-3. Open your browser to `http://localhost:5173`
+2. Open your browser to `http://localhost:5173`
