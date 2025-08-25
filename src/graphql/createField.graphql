@@ -1,0 +1,5 @@
+mutation CreateField($data: CreateFieldInput!) {
+  createField(data: $data) {
+    id
+  }
+}

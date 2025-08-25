@@ -1,0 +1,15 @@
+query getFieldsList {
+  fields {
+    id
+    label
+    type
+    isValueRequired
+    defaultValue
+    options
+    orderType
+    selectType
+    placeholder
+    createdAt
+    updatedAt
+  }
+}
